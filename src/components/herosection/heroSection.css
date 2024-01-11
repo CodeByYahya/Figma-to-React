@@ -1,0 +1,47 @@
+.HeroSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.heading {
+  width: 500px;
+}
+h1 {
+  padding: 60px 0 15px 0;
+  color: #4d4d4d;
+  font-family: Inter;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52.901px;
+}
+span {
+  color: #4caf4f;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 52.901px;
+}
+p {
+  color: #717171;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 16.706px; */
+}
+button {
+  padding: 9.745px 22.274px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #ffff;
+  margin-top: 15px;
+  border-radius: 2.784px;
+  background: #4caf4f;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #3a7a3c;
+}
